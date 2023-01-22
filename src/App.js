@@ -1,4 +1,5 @@
 import React from 'react'
+import About from './About/About';
 import "./App.css";
 import Hero from './Hero/Hero';
 import Navbar from './Navbar/Navbar';
@@ -14,6 +15,7 @@ const App = () => {
       <Footer /> */}
       <Navbar />
       <Hero />
+      <About />
     </div>
   )
 }

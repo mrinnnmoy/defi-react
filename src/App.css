@@ -1,0 +1,11 @@
+body {
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+@media screen and (max-width: 1240px) {
+    body {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+}

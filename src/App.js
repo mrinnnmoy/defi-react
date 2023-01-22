@@ -1,5 +1,6 @@
 import React from 'react'
 import "./App.css";
+import Hero from './Hero/Hero';
 import Navbar from './Navbar/Navbar';
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <Subscribe />
       <Footer /> */}
       <Navbar />
+      <Hero />
     </div>
   )
 }

@@ -1,34 +1,35 @@
 import React, { useState } from 'react';
-import { FaBars, FaTimes } from "react-icons/fa";
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [click, setClick] = useState(false);
-  const handleClick = () => setClick(!click);
+  const [click, setClick] = useState(false)
+  const handleClick = () => setClick(!click)
 
   return (
-    <div className="header">
+    <div className='navbar'>
       <div className="container">
-        <h1>De<span className="primary">Fi</span></h1>
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li>
-            <a href="#home">Home</a>
+        <h1 style={{ marginLeft: '1rem', color: '#00d8ff' }} >Defi</h1>
+        <ul className={click ? 'nav active' : 'nav'}>
+          <li className="nav-item">
+            <a href="/">Platform</a>
           </li>
-          <li>
-            <a href="#featured">Featured</a>
+          <li className="nav-item">
+            <a href="/">Developers</a>
           </li>
-          <li>
-            <a href="#earn">Earn</a>
+          <li className="nav-item">
+            <a href="/">Community</a>
           </li>
-          <li>
-            <a href="#contact">Contact</a>
+          <li className="nav-item">
+            <a href="/">About</a>
+          </li>
+          <li className="nav-item">
+            <a className='btn' href="/">Use Defi</a>
           </li>
         </ul>
-        <div className="btn-group">
-          <button className="btn">Connect Wallet</button>
-        </div>
-        <div className="hamburger" onClick={handleClick}>
-          {click ? (<FaTimes size={20} style={{ color: '#333' }} />) : (<FaBars size={20} style={{ color: '#333' }} />)}
+        <div onClick={handleClick} className="hamburger">
+          {click ? (<AiOutlineClose className='icon' />) : (<AiOutlineMenu className='icon' />)}
+
         </div>
       </div>
     </div>

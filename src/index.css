@@ -24,7 +24,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -64,7 +64,7 @@ body::-webkit-scrollbar-thumb {
   padding: 10px 28px;
   font-size: 1.2rem;
   background-image: linear-gradient(45deg, var(--primary-purple) 0%, var(--primary-blue) 100%);
-  color: #000;
+  color: #fff;
   border: none;
   border-radius: 50px;
   cursor: pointer;

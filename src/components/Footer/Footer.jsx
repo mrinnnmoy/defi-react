@@ -37,8 +37,8 @@ const Footer = () => {
                     <h4>About</h4>
                     <p>Team</p>
                     <p>Founders</p>
-                    <p>Economics</p>
                     <p>Investors</p>
+                    <p>Economics</p>
                 </div>
             </div>
         </div>

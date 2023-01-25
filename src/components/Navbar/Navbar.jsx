@@ -12,19 +12,19 @@ const Navbar = () => {
         <h1 style={{ marginLeft: '1rem', color: '#00d8ff' }} >Defi</h1>
         <ul className={click ? 'nav active' : 'nav'}>
           <li className="nav-item">
-            <a href="/">Platform</a>
+            <a href="#platform">Platform</a>
           </li>
           <li className="nav-item">
-            <a href="/">Developers</a>
+            <a href="#developers">Developers</a>
           </li>
           <li className="nav-item">
-            <a href="/">Community</a>
+            <a href="#community">Community</a>
           </li>
           <li className="nav-item">
-            <a href="/">About</a>
+            <a href="#about">About</a>
           </li>
           <li className="nav-item">
-            <a className='btn' href="/">Use Defi</a>
+            <a className='btn' href="#developers">Use Defi</a>
           </li>
         </ul>
         <div onClick={handleClick} className="hamburger">

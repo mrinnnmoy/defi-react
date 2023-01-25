@@ -6,7 +6,7 @@ import AboutCard from "./AboutCard";
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="about" id="developers">
             <div className="container">
                 <h2>A Growing Protocol Ecosystem</h2>
                 <p>The Defi protocol system empowers developers,

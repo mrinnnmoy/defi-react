@@ -3,7 +3,7 @@ import "./Subscribe.css";
 
 const Subscribe = () => {
     return (
-        <div className="subscribe">
+        <div className="subscribe" id="community">
             <div className="content">
                 <h2>Join Our DeFi Community</h2>
                 <form action="#">

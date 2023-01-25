@@ -29,6 +29,13 @@
     color: var(--primary-purple);
 }
 
+.last-text{
+    display: flex;
+    width: 500%;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 940px) {
     .footer .container {
         grid-template-columns: 1fr 1fr;
@@ -36,5 +43,9 @@
 
     .footer h4 {
         margin-top: 2rem;
+    }
+
+    .last-text{
+        width: 100%;
     }
 }
